@@ -1,0 +1,83 @@
+.box-father{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-father h2{
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.box-children{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 80%;
+    height: auto;
+}
+
+.box-movie{
+    width: 200px;
+    height:400px;
+    margin-top:20px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid rgb(180, 180, 180);
+    box-shadow: 10px 3px 10px 3px rgb(231, 231, 231);
+}
+
+.box-movie img{
+    width: 100%;
+    height: 80%;
+}
+
+.box-movie h3{
+    font-size: 14px;
+    text-align: center;
+}
+
+.buttons-box{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.buttons-box button{
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.btn-see{
+    width: 70px;
+    padding: 3px;
+    border: 1px solid #c23616;
+    background-color: #c23616;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.btn-info{
+    width: 70px;
+    padding: 3px;
+    border: 1px solid #100b55;
+    background-color: #100b55;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.btn-see:hover{
+    opacity: 0.5;
+    transition: 0.5s ease-in;
+}
+
+.btn-info:hover{
+    opacity: 0.5;
+    transition: 0.5s ease-in;
+}
